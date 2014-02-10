@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: spring-webmvc-4.0.0.RELEASE.jar spring-beans-4.0.0.RELEASE
+ .jar spring-core-4.0.0.RELEASE.jar commons-logging-1.1.1.jar spring-c
+ ontext-4.0.0.RELEASE.jar spring-aop-4.0.0.RELEASE.jar aopalliance-1.0
+ .jar spring-expression-4.0.0.RELEASE.jar spring-web-4.0.0.RELEASE.jar
+

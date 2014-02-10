@@ -1,0 +1,11 @@
+package com.piddubnyi.taskmanager.web.servlets;
+import javax.servlet.http.*;
+import javax.servlet.*;
+
+public class HellowServlet extends HttpServlet{
+
+public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, java.io.IOException{
+	  java.io.PrintWriter out = resp.getWriter();
+	  out.println("Hellow " + req.getParameter("username"));
+};
+}
